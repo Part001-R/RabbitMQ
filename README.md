@@ -4,7 +4,7 @@ docker - `docker run -d --hostname my-rabbit --name rabbitmq -p 5672:5672 -p 808
 
 web - `http://localhost:8080`
 login:    `guest`
-password: `quest`
+password: `guest`
 
 Run producer - `go run ./cmd/producer/main.go`
 Run consumer - `go run ./cmd/consumer/main.go`
